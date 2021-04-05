@@ -71,6 +71,7 @@ public class sample implements WashingMachineOperation
 				}
 				else
 				{
+					System.out.print("Your washing machine is off");
 					System.out.print("\nTime left :"+(seconds-(i%seconds)));
 				}
 			}
